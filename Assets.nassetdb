@@ -1,0 +1,21 @@
+{
+    "50a45fe5-2a4d-cff3-8e2b-e7c6dd0451aa": {
+        "assetTypeGuid": "77b22fc4-d109-4dd3-a922-38388879fc90",
+        "path": "Assets.nassetdb"
+    },
+    "51a67dac-3876-4d76-9870-0530e21e2e45": {
+        "assetTypeGuid": "807d69a9-56ec-4032-bb92-d081df336672",
+        "componentTypeGuid": "2a2bce0a-6314-481b-a5a0-7d01e1c00b35",
+        "path": "Assets/Jimmy's Way.scene.nasset"
+    },
+    "7dd56214-3d78-446d-8800-5a34d5d57882": {
+        "assetTypeGuid": "01c2c136-57b4-4a69-b2af-3c2ea94c3f49",
+        "path": "Project.nproject",
+        "name": "Jimmy's Way'",
+        "thumbnail": "ba8a83ad-ac95-4409-b55e-ecca7d99d709",
+        "tags": [
+            "f5777f96-a43c-4ebd-872a-1eeda5719aaf"
+        ]
+    },
+    "guid": "50a45fe5-2a4d-cff3-8e2b-e7c6dd0451aa"
+}
