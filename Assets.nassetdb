@@ -1,4 +1,8 @@
 {
+    "0a85d9ea-5abe-f8bb-5bf2-206d0b45c990": {
+        "assetTypeGuid": "c4e01aa2-495d-4eb1-b9be-fe0e30500b07",
+        "path": "Assets/Thumbnail/Jimmy_Way_Thumb.tex.nasset"
+    },
     "50a45fe5-2a4d-cff3-8e2b-e7c6dd0451aa": {
         "assetTypeGuid": "77b22fc4-d109-4dd3-a922-38388879fc90",
         "path": "Assets.nassetdb"
@@ -6,16 +10,13 @@
     "51a67dac-3876-4d76-9870-0530e21e2e45": {
         "assetTypeGuid": "807d69a9-56ec-4032-bb92-d081df336672",
         "componentTypeGuid": "2a2bce0a-6314-481b-a5a0-7d01e1c00b35",
-        "path": "Assets/Jimmy's Way.scene.nasset",
-        "metadata": {
-            "bfb3d666-cd09-4266-af70-8cb9fc5f5d5b":                     "{\"position\":[-3.0,-5.0,4.0],\"rotation\":[-15.0,-0.0,-45.0]}"
-    }
+        "path": "Assets/Jimmy's Way.scene.nasset"
     },
     "7dd56214-3d78-446d-8800-5a34d5d57882": {
         "assetTypeGuid": "01c2c136-57b4-4a69-b2af-3c2ea94c3f49",
         "path": "Project.nproject",
         "name": "Jimmy's Way'",
-        "thumbnail": "fc872aa6-ab37-02f3-0536-ef6d5d825e78",
+        "thumbnail": "0a85d9ea-5abe-f8bb-5bf2-206d0b45c990",
         "tags": [
             "f5777f96-a43c-4ebd-872a-1eeda5719aaf"
         ]
@@ -41,6 +42,7 @@
         "0984834d-7a7e-3113-77d8-3b842b64ae8c",
         "09db583b-8425-6359-6588-5d8fdd04e660",
         "0a3e209c-f9e4-9f58-5f7c-847cd11dcf05",
+        "0a85d9ea-5abe-f8bb-5bf2-206d0b45c990",
         "0acbd42a-80cd-a1f8-9ca3-1e30d04741bf",
         "0acf340f-363d-46ca-c03c-1832c92e6b23",
         "0b73471f-b9e0-cd7b-b1db-c58ce5d87d7a",
