@@ -85,7 +85,8 @@
                 "referenced": true
             },
             "88a0cdbb-2826-46e3-b372-2a5154eacb61": {
-                "asset": "4169f1fe-8228-4b2d-8cd2-18e07b18c5be"
+                "asset": "4169f1fe-8228-4b2d-8cd2-18e07b18c5be",
+                "audio_asset": "2e5d6458-f003-4d2a-9a46-0f4926ec9e16"
             },
             "data_components": [
                 {
@@ -113,7 +114,7 @@
                     2.9937
                 ],
                 "rotation": [
-                    -45.0121,
+                    -47.0121,
                     0,
                     0
                 ]
@@ -200,8 +201,8 @@
             },
             "7be15c72-f784-4f5e-b895-7cc2fbef6355": {
                 "radius": 40,
-                "irradiance": "3d4f3bb5-9043-63f1-d9ba-65b04c7f89b0",
-                "prefiltered": "3e971327-6234-ccec-96b9-b47412a196b7"
+                "irradiance": "c7155bc2-c75e-fdc0-485c-f53e04cea03b",
+                "prefiltered": "7680e24f-aec9-f6a9-f9d2-398e5e80f4b7"
             },
             "data_components": [
                 {
@@ -224,12 +225,12 @@
             "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
-                    0,
-                    0,
+                    0.0,
+                    0.0,
                     -3.0848
                 ],
                 "scale": [
-                    100
+                    100.0
                 ]
             },
             "9f750482-b822-4d4b-be6a-9c135c614328": {
@@ -240,9 +241,13 @@
             },
             "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
                 "mesh": "540e608c-9479-123a-f12e-3cf1b42de797",
-                "material_instance": "cf56ac76-a0d3-4df8-a4cb-63c9afaa7549"
+                "material_instance": "9b37984d-28bb-4840-a5cb-213238725947"
             },
             "data_components": [
+                {
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "6d891b65-da8b-27bf-25f2-3383aca9f538"
+                },
                 {
                     "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
                     "mask": [
@@ -252,10 +257,62 @@
                 {
                     "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
                     "name": "Skysphere"
-                },
+                }
+            ]
+        },
+        {
+            "typeGuid": "ea45accb-89d5-4816-9831-f116045b90e4",
+            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                "position": [
+                    3.0283,
+                    -0.4122,
+                    6.0959
+                ]
+            },
+            "ea45accb-89d5-4816-9831-f116045b90e4": {
+                "audio_asset": "d57353f3-47c2-45c4-9a60-b1e53f530e10",
+                "looping": true,
+                "volume": 1.0,
+                "outer_radius": 5.0
+            },
+            "data_components": [
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Green Town"
+                }
+            ]
+        },
+        {
+            "typeGuid": "88a0cdbb-2826-46e3-b372-2a5154eacb61",
+            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+                "position": [
+                    1.7,
+                    -0.3,
+                    1.1
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    -89.999
+                ]
+            },
+            "88a0cdbb-2826-46e3-b372-2a5154eacb61": {
+                "asset": "194661d1-0651-499c-afc1-5dc0de75863b"
+            },
+            "data_components": [
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "f695b7d2-b906-4085-5b54-71c0ed7599b6"
+                    "templateInstanceGuid": "7838bd27-b688-f75c-65ce-4ad6a62870b9"
+                },
+                {
+                    "typeGuid": "fa5e5929-fdb4-4579-8c03-f3f837cf4905",
+                    "mask": [
+                        "997e9c4d-d494-4a6e-bb6c-620ced5fabde"
+                    ]
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Spawn Point"
                 }
             ]
         }
