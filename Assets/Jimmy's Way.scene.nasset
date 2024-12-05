@@ -3,19 +3,22 @@
     "type_version": 1,
     "typeGuid": "2a2bce0a-6314-481b-a5a0-7d01e1c00b35",
     "2a2bce0a-6314-481b-a5a0-7d01e1c00b35": {
-        "radius": 4096.0
+        "radius": 4096
     },
     "metadata": {
-        "b59ca996-9dba-4fe9-a9a6-4fff12b86b3e": "{\"fieldOfView\":60.0,\"nearPlane\":0.10000000149011612,\"farPlane\":256.0}",
-        "bfb3d666-cd09-4266-af70-8cb9fc5f5d5b": "{\"position\":[-15.3156,18.4817,21.5999],\"rotation\":[-38.9196,-0.0,-53.0371]}"
+        "b59ca996-9dba-4fe9-a9a6-4fff12b86b3e": "{\"fieldOfView\":60.0,\"nearPlane\":0.10000000149011612,\"farPlane\":128.0}",
+        "bfb3d666-cd09-4266-af70-8cb9fc5f5d5b": "{\"position\":[-5.009528636932373,-3.7967870235443117,6.7360711097717289],\"rotation\":[-28.295692443847658,5.524800599232549e-7,-55.96727752685547]}"
     },
+    "data_components": [
+        {
+            "typeGuid": "64215a37-64a6-45bd-ba87-10abe74da0f9"
+        }
+    ],
     "children": [
         {
             "typeGuid": "d2c2c3a5-b813-4ab8-b52f-7986940e5b67",
+            "instanceGuid": "019392ac-f52e-79a3-849d-be4a8d48441b",
             "data_components": [
-                {
-                    "typeGuid": "22dce412-2016-4019-8392-90ff0294a32e"
-                },
                 {
                     "typeGuid": "0eac250f-0917-43ea-871f-b6ae73ececf9"
                 },
@@ -23,20 +26,33 @@
                     "typeGuid": "b17f5afc-5476-4345-82ae-56ea87607d17"
                 },
                 {
-                    "typeGuid": "a45076cb-ff23-4203-b378-c9c1e4eb98a6"
+                    "typeGuid": "b60ddb15-deda-47d5-a53b-7a7289bc8ae3"
                 },
                 {
-                    "typeGuid": "1e7d22e0-52c4-4c64-8c37-20887eaee664"
+                    "typeGuid": "2ccaab2c-f671-481e-b0e3-a95106c62da6"
+                },
+                {
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "019392ac-f52e-79a3-849d-be4a8d48441b"
                 },
                 {
                     "typeGuid": "f1dad7f0-0053-4a05-af00-0cc2a88f1913",
                     "asset": "ca38d06e-ea90-404e-af3d-749c406c6c09"
                 },
                 {
+                    "typeGuid": "22dce412-2016-4019-8392-90ff0294a32e"
+                },
+                {
                     "typeGuid": "7adde0df-a07d-45dc-999e-80066aed55a9"
                 },
                 {
-                    "typeGuid": "b60ddb15-deda-47d5-a53b-7a7289bc8ae3"
+                    "typeGuid": "de693274-60b1-4973-a474-9bfd21432dd4"
+                },
+                {
+                    "typeGuid": "a45076cb-ff23-4203-b378-c9c1e4eb98a6"
+                },
+                {
+                    "typeGuid": "1e7d22e0-52c4-4c64-8c37-20887eaee664"
                 }
             ]
         },
@@ -45,9 +61,9 @@
             "instanceGuid": "019392ac-f585-72be-3a51-542433f79b32",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
-                    -6.3948,
-                    28.9087,
-                    3.3229
+                    0.5981,
+                    0.3047,
+                    3.3281
                 ],
                 "rotation": [
                     0,
@@ -57,16 +73,16 @@
                 "referenced": true
             },
             "88a0cdbb-2826-46e3-b372-2a5154eacb61": {
-                "asset": "4169f1fe-8228-4b2d-8cd2-18e07b18c5be"
+                "asset": "194661d1-0651-499c-afc1-5dc0de75863b"
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Spawn Point"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "d3f8c605-fcfb-7875-d708-d957a810e116"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Spawn Point"
                 }
             ]
         },
@@ -104,12 +120,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Directional Light"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "59ee1ac2-c4c3-18c2-32b4-527f2c2e8032"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Directional Light"
                 }
             ]
         },
@@ -133,12 +149,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Directional Gravity"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "18346473-407b-41da-9738-296707036b30"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Directional Gravity"
                 }
             ]
         },
@@ -170,12 +186,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Environment Light"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "59ee1ac2-c4c3-18c2-32b4-527f2c2e8032"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Environment Light"
                 }
             ]
         },
@@ -204,41 +220,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Skysphere"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "6d891b65-da8b-27bf-25f2-3383aca9f538"
-                }
-            ]
-        },
-        {
-            "typeGuid": "88a0cdbb-2826-46e3-b372-2a5154eacb61",
-            "instanceGuid": "019392ac-f585-74a4-b993-87bb3390b413",
-            "de8f8da2-d37f-41da-bc6e-580435fe605f": {
-                "position": [
-                    1.3437,
-                    0.4061,
-                    2.6717
-                ],
-                "rotation": [
-                    0,
-                    0,
-                    -89.999
-                ]
-            },
-            "88a0cdbb-2826-46e3-b372-2a5154eacb61": {
-                "asset": "194661d1-0651-499c-afc1-5dc0de75863b"
-            },
-            "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Spawn Point"
                 },
                 {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "7838bd27-b688-f75c-65ce-4ad6a62870b9"
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Skysphere"
                 }
             ]
         },
@@ -253,10 +240,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
@@ -278,10 +261,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Tree Fruit"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392ad-ef72-73b0-213e-df447b460792"
                 }
@@ -302,14 +281,10 @@
                 "rotation": [
                     0,
                     0,
-                    -28.225
+                    -28.2247
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Tower Door"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392ae-1832-778f-39f1-f57d25af9ff7"
@@ -331,10 +306,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Arrow Side"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392c9-741d-7090-d9de-a0012257fb36"
                 }
@@ -355,12 +326,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "019392c9-8d8b-74b0-9253-76817a348805"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -384,43 +351,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Bomb"
-                },
-                {
-                    "typeGuid": "a8afbfa1-eba8-4228-b269-86b8ada445ec",
-                    "spline": {
-                        "typeGuid": "304ec37e-bce4-48b6-9c2e-6108738270ff",
-                        "instanceGuid": "01939335-8c94-76b5-8279-e0f7155ee0e7"
-                    },
-                    "velocity": 0.1,
-                    "override": false,
-                    "applyRotation": false,
-                    "mode": 2
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392c9-e7be-7684-0d1c-5b4e0e1db540"
-                }
-            ],
-            "children": [
-                {
-                    "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
-                    "instanceGuid": "01939335-41f3-70ab-d83c-4a64d25448d2",
-                    "data_components": [
-                        {
-                            "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
-                            "type": 1,
-                            "layer": 1,
-                            "maximumAngularVelocity": 2699.9997,
-                            "overriddenMass": 0,
-                            "gravityScale": 1
-                        },
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "c7f7918b-dc14-1be7-04cb-fe2fe99e7dbe"
-                        }
-                    ]
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -439,14 +371,10 @@
                 "rotation": [
                     0,
                     0,
-                    -89.9993
+                    -89.999
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Cannon"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392ca-41e2-79b5-bd17-0153848fd73e"
@@ -471,43 +399,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Cloud 1"
-                },
-                {
-                    "typeGuid": "a8afbfa1-eba8-4228-b269-86b8ada445ec",
-                    "spline": {
-                        "typeGuid": "304ec37e-bce4-48b6-9c2e-6108738270ff",
-                        "instanceGuid": "01939317-cca1-7682-b7c2-bc6cf3f614aa"
-                    },
-                    "velocity": 0.1,
-                    "override": false,
-                    "applyRotation": false,
-                    "mode": 2
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392cb-b9d5-7a89-bdc8-eb7b62d8dd53"
-                }
-            ],
-            "children": [
-                {
-                    "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
-                    "instanceGuid": "019392fb-fb20-7284-01a4-a5614f7ec330",
-                    "data_components": [
-                        {
-                            "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
-                            "type": 1,
-                            "layer": 1,
-                            "maximumAngularVelocity": 2699.9997,
-                            "overriddenMass": 0,
-                            "gravityScale": 1
-                        },
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "45326ea5-1fa8-15da-197f-f2801b6b0b4a"
-                        }
-                    ]
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -525,10 +418,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Crate"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392cc-4f48-739a-c45d-ee84d9aece89"
@@ -553,10 +442,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
                 }
@@ -576,10 +461,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Bridge Small"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392cd-895c-769f-ba25-3bcb42eb79c1"
@@ -601,14 +482,10 @@
                 "rotation": [
                     0,
                     0,
-                    179.9994
+                    179.9987
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Bridge Modular"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392cd-a13c-7c99-fd0c-573a43398435"
@@ -630,14 +507,10 @@
                 "rotation": [
                     0,
                     0,
-                    89.9995
+                    89.999
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Fence 1"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392cd-e528-78b2-5241-af62a9fa21b8"
@@ -659,14 +532,10 @@
                 "rotation": [
                     0,
                     0,
-                    -89.9994
+                    -89.999
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Fence Corner"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392cd-f485-7085-39e0-1b9d6ea58f4a"
@@ -686,16 +555,12 @@
                     2.1484
                 ],
                 "rotation": [
-                    89.9993,
+                    89.999,
                     0,
                     0
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Fruit"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392ce-9826-7abe-2bdb-bf1d400e7633"
@@ -720,43 +585,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Grass Single"
-                },
-                {
-                    "typeGuid": "a8afbfa1-eba8-4228-b269-86b8ada445ec",
-                    "spline": {
-                        "typeGuid": "304ec37e-bce4-48b6-9c2e-6108738270ff",
-                        "instanceGuid": "019392e4-9c3b-749c-42fe-e579776f30dd"
-                    },
-                    "velocity": 4,
-                    "override": false,
-                    "applyRotation": false,
-                    "mode": 2
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392ce-c8fb-7ab9-92be-5de6cff5dc16"
-                }
-            ],
-            "children": [
-                {
-                    "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
-                    "instanceGuid": "019392fb-fb24-748c-a746-6d185d81dfe1",
-                    "data_components": [
-                        {
-                            "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
-                            "type": 1,
-                            "layer": 1,
-                            "maximumAngularVelocity": 2699.9997,
-                            "overriddenMass": 0,
-                            "gravityScale": 1
-                        },
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "77fb0002-1bd8-087e-15d3-4bf6efc303f6"
-                        }
-                    ]
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -780,10 +610,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Grass 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392cf-126a-768e-8056-1e44b7f54ba3"
                 }
@@ -803,10 +629,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Grass 2"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392cf-28e4-7483-cb02-ee0afbdcc4be"
@@ -836,10 +658,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Question"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d0-d6b4-7489-938b-1aff99f38394"
                 }
@@ -858,9 +676,9 @@
                     0.5156
                 ],
                 "rotation": [
-                    179.9994,
+                    179.9987,
                     0,
-                    179.9994
+                    179.9987
                 ],
                 "scale": [
                     6.0468,
@@ -869,10 +687,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 1"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d1-033c-7aaf-3a6c-a4f5eb54999a"
@@ -892,7 +706,7 @@
                     0.6165
                 ],
                 "rotation": [
-                    179.9994,
+                    179.9987,
                     0,
                     0
                 ],
@@ -901,10 +715,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 2"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d1-5bf3-7f99-e7cc-80f7a036fd39"
@@ -928,10 +738,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "RockPlatform Tall"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d1-92c5-7c89-8e1a-affe8612759c"
@@ -958,10 +764,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "RockPlatforms 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d1-a42c-7cb4-26a5-926d2050fb21"
                 }
@@ -985,10 +787,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "RockPlatforms 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d1-c08e-7f87-172c-0d7ef853ad0a"
                 }
@@ -1011,10 +809,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Bush"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d2-4e87-7c9e-6c7d-533a27d86de0"
@@ -1044,12 +838,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Plant Large Green Light"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d2-a48d-7697-0eca-afe1945a9787"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Plant Large Green Light"
                 }
             ],
             "children": [
@@ -1065,12 +859,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d2-a5a3-7685-f60f-c353cafa83c5"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -1090,12 +884,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d2-a5a3-7694-6c0e-a0a2e0fa9d2d"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -1131,12 +925,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Fence Middle Wood Light"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-8a47-7083-7508-14d7fa9062ac"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Fence Middle Wood Light"
                 }
             ],
             "children": [
@@ -1152,12 +946,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-8bbb-75b2-76e8-b7e59d92fd3e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -1177,12 +971,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-8bbb-7db2-d8ae-3924faddf327"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -1210,12 +1004,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Fence Middle Wood"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-9558-7bbd-502f-81c526edd4c8"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Fence Middle Wood"
                 }
             ],
             "children": [
@@ -1231,12 +1025,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-9633-79a4-0c58-d117a6e8c6af"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -1256,12 +1050,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-9633-7595-0347-4dd187b5f5e3"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -1289,12 +1083,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Plant Large Green Light"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d4-9b26-7b99-33b0-eb30ae89c20c"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Plant Large Green Light"
                 }
             ],
             "children": [
@@ -1310,12 +1104,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d4-9b31-7384-793c-1ad5204c4671"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -1335,12 +1129,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d4-9b31-7d9e-2ecb-c2f1ed8b6e32"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -1360,14 +1154,10 @@
                 "rotation": [
                     0,
                     0,
-                    -28.225
+                    -28.2247
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Tower"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d5-1fe0-7587-2fce-ec19711e6e7e"
@@ -1392,43 +1182,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Cloud 3"
-                },
-                {
-                    "typeGuid": "a8afbfa1-eba8-4228-b269-86b8ada445ec",
-                    "spline": {
-                        "typeGuid": "304ec37e-bce4-48b6-9c2e-6108738270ff",
-                        "instanceGuid": "01939329-5080-7394-fccf-4d4baf3a480e"
-                    },
-                    "velocity": 0.2,
-                    "override": false,
-                    "applyRotation": false,
-                    "mode": 2
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d9-5354-73b6-13b0-4c571f9efbe7"
-                }
-            ],
-            "children": [
-                {
-                    "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
-                    "instanceGuid": "019392fb-fb19-71a1-dd79-c99519576849",
-                    "data_components": [
-                        {
-                            "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
-                            "type": 1,
-                            "layer": 1,
-                            "maximumAngularVelocity": 2699.9997,
-                            "overriddenMass": 0,
-                            "gravityScale": 1
-                        },
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "b7e13200-5521-9169-93e8-e12f18c2515f"
-                        }
-                    ]
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1447,12 +1202,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "019392da-d5bb-73a9-3e28-16ee0f245997"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1471,12 +1222,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 4"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "019392db-5e36-7990-b22d-9c8ac77f8464"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1495,12 +1242,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 5"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "019392db-7cbf-7c9d-cfe8-53adfc66c955"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1519,12 +1262,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Tree Fruit 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-ef72-73b0-213e-df447b460792"
+                    "templateInstanceGuid": "019392db-9770-7d85-c7d4-d80e5f71d9f4"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1556,12 +1295,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d4-9b26-7b99-33b0-eb30ae89c20c"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component"
                 }
             ],
             "children": [
@@ -1577,12 +1316,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d4-9b31-7384-793c-1ad5204c4671"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -1602,12 +1341,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d4-9b31-7d9e-2ecb-c2f1ed8b6e32"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -1630,12 +1369,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 1 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-033c-7aaf-3a6c-a4f5eb54999a"
+                    "templateInstanceGuid": "019392dc-488f-7984-12b1-f0765ba4fc42"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1662,12 +1397,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 1 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-033c-7aaf-3a6c-a4f5eb54999a"
+                    "templateInstanceGuid": "019392dc-7da9-76bc-c72e-6dd8519782ef"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1697,12 +1428,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d4-9b26-7b99-33b0-eb30ae89c20c"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 2"
                 }
             ],
             "children": [
@@ -1718,12 +1449,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d4-9b31-7384-793c-1ad5204c4671"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -1743,12 +1474,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d4-9b31-7d9e-2ecb-c2f1ed8b6e32"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -1768,7 +1499,7 @@
                 "rotation": [
                     0,
                     0,
-                    54.6804
+                    54.6797
                 ],
                 "scale": [
                     0.6952
@@ -1784,12 +1515,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d4-9b26-7b99-33b0-eb30ae89c20c"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 3"
                 }
             ],
             "children": [
@@ -1805,12 +1536,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d4-9b31-7384-793c-1ad5204c4671"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -1830,12 +1561,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d4-9b31-7d9e-2ecb-c2f1ed8b6e32"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -1858,12 +1589,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Bush 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d2-4e87-7c9e-6c7d-533a27d86de0"
+                    "templateInstanceGuid": "019392dd-2a37-7587-6f4e-56d7dbdf2c51"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1882,12 +1609,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 6"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "019392de-0cb0-77be-2507-4e76c1b97283"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1906,12 +1629,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 7"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "019392de-a298-71a3-3a0e-79aa76d8bee5"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1935,12 +1654,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
+                    "templateInstanceGuid": "019392de-c918-79be-2c40-3074cbcc8fd0"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -1964,101 +1679,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
-                }
-            ],
-            "children": [
-                {
-                    "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
-                    "instanceGuid": "019392df-9141-70a0-426f-881412491241",
-                    "data_components": [
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "9f5673d4-6292-41f3-1e2b-6a80575de056"
-                        }
-                    ],
-                    "children": [
-                        {
-                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
-                            "instanceGuid": "019392df-9141-7ebc-eed1-755e1663e778",
-                            "data_components": [
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "60267744-839c-d768-511f-08206827803c"
-                                }
-                            ],
-                            "children": [
-                                {
-                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                                    "instanceGuid": "019392df-9141-75a3-b58a-d8aff4520b97",
-                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
-                                        "material_instance": "1668ba45-a7f1-2868-8967-b0dbe63705b4"
-                                    },
-                                    "data_components": [
-                                        {
-                                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                            "templateInstanceGuid": "6fc5c399-4180-9983-6463-165ad33e4e4c"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
-                            "instanceGuid": "019392df-9141-75b0-d29c-8704ff1e7001",
-                            "data_components": [
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "2bc32abb-de03-eacc-935c-925947a76d2c"
-                                }
-                            ],
-                            "children": [
-                                {
-                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                                    "instanceGuid": "019392df-9141-7580-7541-0499cecfb00b",
-                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
-                                        "material_instance": "1668ba45-a7f1-2868-8967-b0dbe63705b4"
-                                    },
-                                    "data_components": [
-                                        {
-                                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                            "templateInstanceGuid": "34abf4d7-abd0-d3ab-93c9-67e7f717eb76"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
-                            "instanceGuid": "019392df-9141-70bf-194a-bd9b179b4404",
-                            "data_components": [
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "c4f86e41-c5e3-e18e-8237-459f5d6522a3"
-                                }
-                            ],
-                            "children": [
-                                {
-                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                                    "instanceGuid": "019392df-9141-7689-f7b2-3bfc91be5e4b",
-                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
-                                        "material_instance": "1668ba45-a7f1-2868-8967-b0dbe63705b4"
-                                    },
-                                    "data_components": [
-                                        {
-                                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                            "templateInstanceGuid": "4637b17b-cea6-7d5d-e4de-2f7c416e2aa0"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
+                    "templateInstanceGuid": "019392df-9141-7ba2-be4a-e6ec907aa579"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2077,12 +1699,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 8"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "019392e0-2644-7293-4859-91062c4d4e0f"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2106,12 +1724,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single 4"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
+                    "templateInstanceGuid": "019392e0-6a27-7496-db7c-750e6e24b98f"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2135,101 +1749,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single 5"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
-                }
-            ],
-            "children": [
-                {
-                    "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
-                    "instanceGuid": "019392e0-8dae-7696-0420-7ab46eb1af8a",
-                    "data_components": [
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "9f5673d4-6292-41f3-1e2b-6a80575de056"
-                        }
-                    ],
-                    "children": [
-                        {
-                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
-                            "instanceGuid": "019392e0-8dae-74bc-3150-88a2e44c799f",
-                            "data_components": [
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "60267744-839c-d768-511f-08206827803c"
-                                }
-                            ],
-                            "children": [
-                                {
-                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                                    "instanceGuid": "019392e0-8dae-7985-d03d-93e6ea0991a7",
-                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
-                                        "material_instance": "1668ba45-a7f1-2868-8967-b0dbe63705b4"
-                                    },
-                                    "data_components": [
-                                        {
-                                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                            "templateInstanceGuid": "6fc5c399-4180-9983-6463-165ad33e4e4c"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
-                            "instanceGuid": "019392e0-8dae-74a7-4796-33454b09b9e7",
-                            "data_components": [
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "2bc32abb-de03-eacc-935c-925947a76d2c"
-                                }
-                            ],
-                            "children": [
-                                {
-                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                                    "instanceGuid": "019392e0-8dae-74a0-520e-4b2032a12d79",
-                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
-                                        "material_instance": "1668ba45-a7f1-2868-8967-b0dbe63705b4"
-                                    },
-                                    "data_components": [
-                                        {
-                                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                            "templateInstanceGuid": "34abf4d7-abd0-d3ab-93c9-67e7f717eb76"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
-                            "instanceGuid": "019392e0-8dae-7994-86b9-380df74c0662",
-                            "data_components": [
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "c4f86e41-c5e3-e18e-8237-459f5d6522a3"
-                                }
-                            ],
-                            "children": [
-                                {
-                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                                    "instanceGuid": "019392e0-8dae-73b2-4c57-11346cdc40ec",
-                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
-                                        "material_instance": "1668ba45-a7f1-2868-8967-b0dbe63705b4"
-                                    },
-                                    "data_components": [
-                                        {
-                                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                            "templateInstanceGuid": "4637b17b-cea6-7d5d-e4de-2f7c416e2aa0"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
+                    "templateInstanceGuid": "019392e0-8dae-7ab6-f83b-4c7c56849b95"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2248,12 +1769,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 9"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "019392e0-ad48-7f8c-39a3-ad60102a576e"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2277,101 +1794,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single 6"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
-                }
-            ],
-            "children": [
-                {
-                    "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
-                    "instanceGuid": "019392e1-3a8d-769c-abb3-565439aaabff",
-                    "data_components": [
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "9f5673d4-6292-41f3-1e2b-6a80575de056"
-                        }
-                    ],
-                    "children": [
-                        {
-                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
-                            "instanceGuid": "019392e1-3a8d-70a7-806e-ef7789375275",
-                            "data_components": [
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "60267744-839c-d768-511f-08206827803c"
-                                }
-                            ],
-                            "children": [
-                                {
-                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                                    "instanceGuid": "019392e1-3a8d-7c99-5446-7a2cd229fb88",
-                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
-                                        "material_instance": "1668ba45-a7f1-2868-8967-b0dbe63705b4"
-                                    },
-                                    "data_components": [
-                                        {
-                                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                            "templateInstanceGuid": "6fc5c399-4180-9983-6463-165ad33e4e4c"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
-                            "instanceGuid": "019392e1-3a8d-77a5-6880-a6492d8f56ad",
-                            "data_components": [
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "2bc32abb-de03-eacc-935c-925947a76d2c"
-                                }
-                            ],
-                            "children": [
-                                {
-                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                                    "instanceGuid": "019392e1-3a8e-7b8a-8181-ec3fe9e51dfd",
-                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
-                                        "material_instance": "1668ba45-a7f1-2868-8967-b0dbe63705b4"
-                                    },
-                                    "data_components": [
-                                        {
-                                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                            "templateInstanceGuid": "34abf4d7-abd0-d3ab-93c9-67e7f717eb76"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
-                            "instanceGuid": "019392e1-3a8e-7791-54f6-8c4f71832200",
-                            "data_components": [
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "c4f86e41-c5e3-e18e-8237-459f5d6522a3"
-                                }
-                            ],
-                            "children": [
-                                {
-                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                                    "instanceGuid": "019392e1-3a8e-788c-1237-d8417b450ad2",
-                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
-                                        "material_instance": "1668ba45-a7f1-2868-8967-b0dbe63705b4"
-                                    },
-                                    "data_components": [
-                                        {
-                                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                            "templateInstanceGuid": "4637b17b-cea6-7d5d-e4de-2f7c416e2aa0"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
+                    "templateInstanceGuid": "019392e1-3a8d-79bd-6fd3-224cdaab6c2f"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2390,12 +1814,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 10"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "019392e1-f3f9-73be-83ac-773546df36ca"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2414,7 +1834,7 @@
                 "rotation": [
                     0,
                     0,
-                    179.9993
+                    179.9987
                 ],
                 "referenced": true
             },
@@ -2473,12 +1893,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Spline"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392e4-9c3b-749c-42fe-e579776f30dd"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Spline"
                 }
             ]
         },
@@ -2499,101 +1919,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single 7"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
-                }
-            ],
-            "children": [
-                {
-                    "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
-                    "instanceGuid": "019392fd-4285-7196-57e8-7d33f8a8c41e",
-                    "data_components": [
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "9f5673d4-6292-41f3-1e2b-6a80575de056"
-                        }
-                    ],
-                    "children": [
-                        {
-                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
-                            "instanceGuid": "019392fd-4285-728b-76f6-397175462241",
-                            "data_components": [
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "60267744-839c-d768-511f-08206827803c"
-                                }
-                            ],
-                            "children": [
-                                {
-                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                                    "instanceGuid": "019392fd-4285-73a2-1858-6ab3470e8d1d",
-                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
-                                        "material_instance": "1668ba45-a7f1-2868-8967-b0dbe63705b4"
-                                    },
-                                    "data_components": [
-                                        {
-                                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                            "templateInstanceGuid": "6fc5c399-4180-9983-6463-165ad33e4e4c"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
-                            "instanceGuid": "019392fd-4285-79b3-470c-a42836f0d4c3",
-                            "data_components": [
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "2bc32abb-de03-eacc-935c-925947a76d2c"
-                                }
-                            ],
-                            "children": [
-                                {
-                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                                    "instanceGuid": "019392fd-4285-7ab3-f3b9-33010f699ba5",
-                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
-                                        "material_instance": "1668ba45-a7f1-2868-8967-b0dbe63705b4"
-                                    },
-                                    "data_components": [
-                                        {
-                                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                            "templateInstanceGuid": "34abf4d7-abd0-d3ab-93c9-67e7f717eb76"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "typeGuid": "508647ca-01f3-4930-9e33-4562692b719f",
-                            "instanceGuid": "019392fd-4285-7882-6197-ae4dfc191c99",
-                            "data_components": [
-                                {
-                                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                    "templateInstanceGuid": "c4f86e41-c5e3-e18e-8237-459f5d6522a3"
-                                }
-                            ],
-                            "children": [
-                                {
-                                    "typeGuid": "de0b2bc1-2e72-4739-a749-f5281e0de55a",
-                                    "instanceGuid": "019392fd-4285-749d-b2be-9e8505d0ec9c",
-                                    "de0b2bc1-2e72-4739-a749-f5281e0de55a": {
-                                        "material_instance": "1668ba45-a7f1-2868-8967-b0dbe63705b4"
-                                    },
-                                    "data_components": [
-                                        {
-                                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                                            "templateInstanceGuid": "4637b17b-cea6-7d5d-e4de-2f7c416e2aa0"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
+                    "templateInstanceGuid": "019392fd-4285-7a83-6847-045978d4f2a7"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2612,12 +1939,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 1 4"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-033c-7aaf-3a6c-a4f5eb54999a"
+                    "templateInstanceGuid": "019392fd-b51b-7580-1920-27a8b0e5b6ae"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2639,12 +1962,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 1 5"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-033c-7aaf-3a6c-a4f5eb54999a"
+                    "templateInstanceGuid": "019392fd-f276-748b-2985-2fd8a4c043ac"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2663,12 +1982,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 1 6"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-033c-7aaf-3a6c-a4f5eb54999a"
+                    "templateInstanceGuid": "019392fe-3694-70aa-a15e-123a9ecd7f48"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2692,12 +2007,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "HazardSensor"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392fe-9fdc-7fb9-ede7-fcd5db9431e3"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "HazardSensor"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2732,12 +2047,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 4"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-8a47-7083-7508-14d7fa9062ac"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 4"
                 }
             ],
             "children": [
@@ -2753,12 +2068,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-8bbb-75b2-76e8-b7e59d92fd3e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -2778,12 +2093,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-8bbb-7db2-d8ae-3924faddf327"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -2816,12 +2131,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 5"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-8a47-7083-7508-14d7fa9062ac"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 5"
                 }
             ],
             "children": [
@@ -2837,12 +2152,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-8bbb-75b2-76e8-b7e59d92fd3e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -2862,12 +2177,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-8bbb-7db2-d8ae-3924faddf327"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -2892,12 +2207,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "HazardSensor 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939301-4670-70be-7cdc-b4cc81dd1c5e"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "HazardSensor 2"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -2914,7 +2229,7 @@
                     1.9529
                 ],
                 "rotation": [
-                    -89.9995,
+                    -89.999,
                     0,
                     0
                 ],
@@ -2934,12 +2249,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 6"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-8a47-7083-7508-14d7fa9062ac"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 6"
                 }
             ],
             "children": [
@@ -2955,12 +2270,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-8bbb-75b2-76e8-b7e59d92fd3e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -2980,12 +2295,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-8bbb-7db2-d8ae-3924faddf327"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -3003,7 +2318,7 @@
                     1.9529
                 ],
                 "rotation": [
-                    -89.9995,
+                    -89.999,
                     0,
                     0
                 ],
@@ -3023,12 +2338,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 7"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-8a47-7083-7508-14d7fa9062ac"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 7"
                 }
             ],
             "children": [
@@ -3044,12 +2359,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-8bbb-75b2-76e8-b7e59d92fd3e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -3069,12 +2384,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-8bbb-7db2-d8ae-3924faddf327"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -3094,12 +2409,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 11"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "01939309-5d4a-72aa-8a79-7d1cba0422e1"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3118,12 +2429,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 12"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "0193930a-01d5-71a7-828a-211c0af650f9"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3142,12 +2449,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 13"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "0193930a-4041-708e-a4b1-28a039d289dc"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3166,12 +2469,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 14"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "0193930a-5eae-76a5-c233-23576a59e211"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3190,12 +2489,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 15"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "0193930a-7734-7bbe-63ff-6c9ba67b1352"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3214,12 +2509,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 16"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "0193930b-736a-77be-cbfc-4382632dd521"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3243,12 +2534,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "HazardSensor 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "0193930b-d86b-7eaf-0e0d-5c8700cc71c9"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "HazardSensor 3"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3265,7 +2556,7 @@
                     1.9529
                 ],
                 "rotation": [
-                    -89.9995,
+                    -89.999,
                     0,
                     0
                 ],
@@ -3285,12 +2576,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 8"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-8a47-7083-7508-14d7fa9062ac"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 8"
                 }
             ],
             "children": [
@@ -3306,12 +2597,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-8bbb-75b2-76e8-b7e59d92fd3e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -3331,12 +2622,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-8bbb-7db2-d8ae-3924faddf327"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -3356,7 +2647,7 @@
                 "rotation": [
                     0,
                     0,
-                    89.9995
+                    89.999
                 ],
                 "scale": [
                     1.8593
@@ -3364,12 +2655,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "RockPlatforms 2 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-a42c-7cb4-26a5-926d2050fb21"
+                    "templateInstanceGuid": "0193930e-0e13-7e85-4d71-9c1ad19d1d96"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3399,12 +2686,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 9"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d4-9b26-7b99-33b0-eb30ae89c20c"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 9"
                 }
             ],
             "children": [
@@ -3420,12 +2707,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d4-9b31-7384-793c-1ad5204c4671"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -3445,12 +2732,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d4-9b31-7d9e-2ecb-c2f1ed8b6e32"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -3481,12 +2768,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 10"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d4-9b26-7b99-33b0-eb30ae89c20c"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 10"
                 }
             ],
             "children": [
@@ -3502,12 +2789,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d4-9b31-7384-793c-1ad5204c4671"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -3527,12 +2814,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d4-9b31-7d9e-2ecb-c2f1ed8b6e32"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -3555,12 +2842,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 1 7"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-033c-7aaf-3a6c-a4f5eb54999a"
+                    "templateInstanceGuid": "0193930f-0ea6-7abb-59da-b8e114628a78"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3581,10 +2864,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "0193930f-1454-75b3-3c05-154beb6c90f7"
@@ -3638,12 +2917,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 11"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d4-9b26-7b99-33b0-eb30ae89c20c"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 11"
                 }
             ],
             "children": [
@@ -3659,12 +2938,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d4-9b31-7384-793c-1ad5204c4671"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -3684,12 +2963,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d4-9b31-7d9e-2ecb-c2f1ed8b6e32"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -3709,10 +2988,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "01939310-4168-77a9-33d1-e1222ef55c34"
-                },
-                {
                     "typeGuid": "821f5c81-6446-4230-b4c9-6ea6b37c24b1",
                     "velocity": 16,
                     "rotationAxis": [
@@ -3722,6 +2997,10 @@
                     ],
                     "rotationLimit": "0-0",
                     "mode": 1
+                },
+                {
+                    "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
+                    "templateInstanceGuid": "01939310-4168-77a9-33d1-e1222ef55c34"
                 }
             ],
             "children": [
@@ -3732,9 +3011,6 @@
                         "mesh": "6ce88baf-8cab-3017-8ce7-9a46344cfb01"
                     },
                     "data_components": [
-                        {
-                            "typeGuid": "de693274-60b1-4973-a474-9bfd21432dd4"
-                        },
                         {
                             "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
                             "type": 1,
@@ -3747,6 +3023,9 @@
                         {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "a3fd2166-d6d8-4210-a034-fac76ae97220"
+                        },
+                        {
+                            "typeGuid": "de693274-60b1-4973-a474-9bfd21432dd4"
                         }
                     ]
                 }
@@ -3767,7 +3046,7 @@
                 "rotation": [
                     0,
                     0,
-                    89.9995
+                    89.999
                 ],
                 "scale": [
                     1.2265
@@ -3783,12 +3062,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Pipe 90 Pipe"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939313-6ddd-7091-28db-94109f309d59"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Pipe 90 Pipe"
                 }
             ],
             "children": [
@@ -3804,12 +3083,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "01939313-6df8-73a8-7332-8a974153bdef"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -3829,12 +3108,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "01939313-6df8-79ad-2da6-82aa7828d514"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -3859,12 +3138,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single 8"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
+                    "templateInstanceGuid": "01939314-9196-7fb2-001c-06874ca34f05"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3888,12 +3163,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Crate 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-4f48-739a-c45d-ee84d9aece89"
+                    "templateInstanceGuid": "01939315-983b-7580-458f-8001336f921b"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3917,12 +3188,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Crate 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-4f48-739a-c45d-ee84d9aece89"
+                    "templateInstanceGuid": "01939316-1dbb-78b5-7241-3d3ae4c10a65"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3946,12 +3213,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Crate 4"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-4f48-739a-c45d-ee84d9aece89"
+                    "templateInstanceGuid": "01939316-8162-729e-ac1d-7083ee1eafaf"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -3986,12 +3249,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 12"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-8a47-7083-7508-14d7fa9062ac"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 12"
                 }
             ],
             "children": [
@@ -4007,12 +3270,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-8bbb-75b2-76e8-b7e59d92fd3e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -4032,12 +3295,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-8bbb-7db2-d8ae-3924faddf327"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -4057,7 +3320,7 @@
                 "rotation": [
                     0,
                     0,
-                    89.9995
+                    89.999
                 ],
                 "referenced": true
             },
@@ -4116,12 +3379,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Spline 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939317-cca1-7682-b7c2-bc6cf3f614aa"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Spline 2"
                 }
             ]
         },
@@ -4135,9 +3398,9 @@
                     0.5156
                 ],
                 "rotation": [
-                    179.9994,
+                    179.9987,
                     0,
-                    -89.9995
+                    -89.999
                 ],
                 "scale": [
                     6.0468,
@@ -4147,12 +3410,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 1 8"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-033c-7aaf-3a6c-a4f5eb54999a"
+                    "templateInstanceGuid": "0193931a-52c3-7c9f-781b-7526983105aa"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -4181,12 +3440,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "RockPlatforms 3 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-c08e-7f87-172c-0d7ef853ad0a"
+                    "templateInstanceGuid": "0193931b-317c-738a-069d-0ba04f54185b"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -4205,17 +3460,13 @@
                 "rotation": [
                     0,
                     0,
-                    179.9994
+                    179.9987
                 ]
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Bridge Modular 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cd-a13c-7c99-fd0c-573a43398435"
+                    "templateInstanceGuid": "0193931d-5fba-778f-c3f8-bce324e2e9b2"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -4244,12 +3495,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "RockPlatforms 3 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-c08e-7f87-172c-0d7ef853ad0a"
+                    "templateInstanceGuid": "0193931d-f6ba-7fb9-e766-552811753c68"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -4268,7 +3515,7 @@
                 "rotation": [
                     0,
                     0,
-                    89.9995
+                    89.999
                 ],
                 "scale": [
                     9.324,
@@ -4286,12 +3533,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 13"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-8a47-7083-7508-14d7fa9062ac"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 13"
                 }
             ],
             "children": [
@@ -4307,12 +3554,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-8bbb-75b2-76e8-b7e59d92fd3e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -4332,12 +3579,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-8bbb-7db2-d8ae-3924faddf327"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -4373,12 +3620,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 14"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-8a47-7083-7508-14d7fa9062ac"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 14"
                 }
             ],
             "children": [
@@ -4394,12 +3641,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-8bbb-75b2-76e8-b7e59d92fd3e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -4419,12 +3666,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-8bbb-7db2-d8ae-3924faddf327"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -4460,12 +3707,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 15"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-8a47-7083-7508-14d7fa9062ac"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 15"
                 }
             ],
             "children": [
@@ -4481,12 +3728,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-8bbb-75b2-76e8-b7e59d92fd3e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -4506,12 +3753,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-8bbb-7db2-d8ae-3924faddf327"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -4531,7 +3778,7 @@
                 "rotation": [
                     0,
                     -89.9802,
-                    -179.9994
+                    -179.9987
                 ],
                 "scale": [
                     3.1717
@@ -4547,12 +3794,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 16"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-8a47-7083-7508-14d7fa9062ac"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 16"
                 }
             ],
             "children": [
@@ -4568,12 +3815,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-8bbb-75b2-76e8-b7e59d92fd3e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -4593,12 +3840,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-8bbb-7db2-d8ae-3924faddf327"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -4631,12 +3878,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 17"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "019392d3-8a47-7083-7508-14d7fa9062ac"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 17"
                 }
             ],
             "children": [
@@ -4652,12 +3899,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "019392d3-8bbb-75b2-76e8-b7e59d92fd3e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -4677,12 +3924,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "019392d3-8bbb-7db2-d8ae-3924faddf327"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -4707,12 +3954,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single 9"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
+                    "templateInstanceGuid": "01939323-ea96-76a4-7275-f0d1472afe77"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -4736,12 +3979,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single 10"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
+                    "templateInstanceGuid": "01939323-f967-738a-5f2f-69cb5d2a56d5"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -4765,12 +4004,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single 11"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
+                    "templateInstanceGuid": "01939324-0bc3-7ba6-c0a7-0f8bdc3f98bb"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -4789,7 +4024,7 @@
                 "rotation": [
                     0,
                     0,
-                    179.9994
+                    179.9987
                 ],
                 "referenced": true
             },
@@ -4848,12 +4083,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Spline 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939324-dc90-719e-268b-10b1a20f03d2"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Spline 3"
                 }
             ]
         },
@@ -4874,12 +4109,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "HazardSensor 4"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939327-1418-7aa4-d75c-5fdffa8a47b3"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "HazardSensor 4"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -4903,12 +4138,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single 12"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
+                    "templateInstanceGuid": "01939327-6a9c-7994-6315-ecd4f4f4f77c"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -4933,12 +4164,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Sound Spot"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939328-43f7-7c84-ee59-845956983344"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Sound Spot"
                 }
             ]
         },
@@ -4954,7 +4185,7 @@
                 "rotation": [
                     0,
                     0,
-                    -89.9995
+                    -89.999
                 ],
                 "referenced": true
             },
@@ -5013,12 +4244,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Spline 4"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939329-5080-7394-fccf-4d4baf3a480e"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Spline 4"
                 }
             ]
         },
@@ -5034,12 +4265,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 18"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "0193932a-4c8b-7080-0614-a001f7074ab3"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5058,12 +4285,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 19"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "0193932a-5e43-7b87-bfec-bd09fae574e3"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5082,12 +4305,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 20"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "0193932a-7b97-7dad-5f0f-08375e482772"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5106,12 +4325,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 21"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "0193932a-8b24-7399-4ee4-927f34671816"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5130,12 +4345,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Ground 10x10 22"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392ad-b481-7cb7-3afa-447ed4d0f6c5"
+                    "templateInstanceGuid": "0193932a-9cda-76b7-abea-73d0070aa978"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5165,12 +4376,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Pipe Straight Pipe"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "0193932b-1be2-7498-fcbe-3210a525f0e9"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Pipe Straight Pipe"
                 }
             ],
             "children": [
@@ -5186,12 +4397,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "0193932b-1bfc-75a6-7355-920dd58ce88f"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -5211,12 +4422,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "0193932b-1bfc-7ab9-886a-d797821f0ecc"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -5247,12 +4458,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Pipe Straight Pipe Light"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "0193932b-33ed-72af-2ecc-0da04ea6f381"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Pipe Straight Pipe Light"
                 }
             ],
             "children": [
@@ -5268,12 +4479,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "0193932b-3407-7bb5-2c9f-3c4a3eba0169"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -5293,12 +4504,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "0193932b-3407-7b97-ad46-dc27141366bb"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -5329,12 +4540,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 19"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "0193932d-9779-7eb0-018e-5423c2af62ef"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 19"
                 }
             ],
             "children": [
@@ -5350,12 +4561,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "0193932d-9779-7389-300c-17f1e6243418"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -5375,12 +4586,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "0193932d-9779-7c8f-dc04-b1553db9f5df"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -5411,12 +4622,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 20"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "0193932d-a9c2-75ac-4efe-e6c251748728"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 20"
                 }
             ],
             "children": [
@@ -5432,12 +4643,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "0193932d-a9c2-709a-7ba6-f91228cb0f6d"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -5457,12 +4668,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "0193932d-a9c2-7a9f-37e8-0cafb850afff"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -5485,12 +4696,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Dirt Single 14"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cc-c230-7384-47a1-fe5ccedf123e"
+                    "templateInstanceGuid": "0193932f-561f-78a0-bbad-13db76e9d2d4"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5509,43 +4716,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Cannonball"
-                },
-                {
-                    "typeGuid": "a8afbfa1-eba8-4228-b269-86b8ada445ec",
-                    "spline": {
-                        "typeGuid": "304ec37e-bce4-48b6-9c2e-6108738270ff",
-                        "instanceGuid": "01939324-dc90-719e-268b-10b1a20f03d2"
-                    },
-                    "velocity": 3,
-                    "override": false,
-                    "applyRotation": false,
-                    "mode": 1
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939330-f841-74ad-66e6-75f9aed0fc36"
-                }
-            ],
-            "children": [
-                {
-                    "typeGuid": "de8f8da2-d37f-41da-bc6e-580435fe605f",
-                    "instanceGuid": "01939330-f85a-7cae-6add-cc85ad8fdd89",
-                    "data_components": [
-                        {
-                            "typeGuid": "653ee503-f473-47d2-be45-08a577d17b86",
-                            "type": 1,
-                            "layer": 1,
-                            "maximumAngularVelocity": 2699.9997,
-                            "overriddenMass": 0,
-                            "gravityScale": 1
-                        },
-                        {
-                            "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                            "templateInstanceGuid": "a1016ca1-b4ef-5ab4-4a80-b745c587eda8"
-                        }
-                    ]
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5562,7 +4734,7 @@
                     0.289
                 ],
                 "rotation": [
-                    179.9994,
+                    179.9987,
                     0,
                     0
                 ],
@@ -5572,12 +4744,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 2 2"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-5bf3-7f99-e7cc-80f7a036fd39"
+                    "templateInstanceGuid": "01939332-cc28-7bbf-07f5-fe66617356c6"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5589,12 +4757,12 @@
             "instanceGuid": "01939333-8da4-7785-bedc-6ed3bed1510d",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
-                    12.0074,
+                    12.0073,
                     -1.695,
                     2.8515
                 ],
                 "rotation": [
-                    -89.9997,
+                    -89.999,
                     0,
                     0
                 ],
@@ -5614,12 +4782,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Pipe End Pipe Light"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939333-8da4-7785-bedc-6ed3bed1510d"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Pipe End Pipe Light"
                 }
             ],
             "children": [
@@ -5635,12 +4803,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "01939333-8dc0-7c9d-2f77-0c2337fdb99e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -5660,12 +4828,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "01939333-8dc0-77a1-4ad1-62472f1496e7"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -5683,7 +4851,7 @@
                     2.1717
                 ],
                 "rotation": [
-                    89.9998,
+                    89.9991,
                     0,
                     0
                 ],
@@ -5744,12 +4912,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Spline 5"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939335-8c94-76b5-8279-e0f7155ee0e7"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "Spline 5"
                 }
             ]
         },
@@ -5765,12 +4933,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Bricks 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392c9-f8ed-7e87-f5ca-25eafd48b829"
+                    "templateInstanceGuid": "01939337-00c4-7186-7d3d-9c64927d9e84"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5789,12 +4953,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Bricks 4"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392c9-f8ed-7e87-f5ca-25eafd48b829"
+                    "templateInstanceGuid": "01939337-84cc-759e-1a46-75eaaba8df84"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5813,12 +4973,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Bricks 5"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392c9-f8ed-7e87-f5ca-25eafd48b829"
+                    "templateInstanceGuid": "01939337-9ed7-7685-575e-f5cc3dd4debd"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5837,12 +4993,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Bricks 6"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392c9-f8ed-7e87-f5ca-25eafd48b829"
+                    "templateInstanceGuid": "01939337-9ed7-7282-13bb-f2ec724c43d0"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5855,13 +5007,13 @@
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
                     26.9685,
-                    14.195,
+                    14.1948,
                     4.5623
                 ],
                 "rotation": [
                     0,
                     0,
-                    89.9995
+                    89.999
                 ],
                 "scale": [
                     1.8593
@@ -5869,12 +5021,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "RockPlatforms 2 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-a42c-7cb4-26a5-926d2050fb21"
+                    "templateInstanceGuid": "01939337-f9f1-778e-b102-b7a3bdaec6f4"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5891,7 +5039,7 @@
                     0.289
                 ],
                 "rotation": [
-                    179.9994,
+                    179.9987,
                     0,
                     0
                 ],
@@ -5901,12 +5049,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 2 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-5bf3-7f99-e7cc-80f7a036fd39"
+                    "templateInstanceGuid": "01939338-ed65-7087-b130-39a6fb26f890"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5923,7 +5067,7 @@
                     -0.3592
                 ],
                 "rotation": [
-                    179.9994,
+                    179.9987,
                     0,
                     0
                 ],
@@ -5933,12 +5077,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 2 4"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-5bf3-7f99-e7cc-80f7a036fd39"
+                    "templateInstanceGuid": "01939339-2ec2-7ca7-35d5-cd38aacea17b"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5955,7 +5095,7 @@
                     -0.8827
                 ],
                 "rotation": [
-                    179.9994,
+                    179.9987,
                     0,
                     0
                 ],
@@ -5967,12 +5107,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Rock 2 5"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392d1-5bf3-7f99-e7cc-80f7a036fd39"
+                    "templateInstanceGuid": "01939339-ae24-798b-7689-454be691d385"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -5991,12 +5127,8 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Bridge Modular 3"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
-                    "templateInstanceGuid": "019392cd-a13c-7c99-fd0c-573a43398435"
+                    "templateInstanceGuid": "0193933d-7c22-7196-866c-49e390dd0de0"
                 }
             ],
             "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
@@ -6015,12 +5147,12 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "HealthCollectible"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "0193933e-b67e-738d-6cf8-9282aa0c4e5e"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "HealthCollectible"
                 }
             ],
             "children": [
@@ -6029,11 +5161,11 @@
                     "instanceGuid": "0193933e-b696-7caa-f5a0-14dfa784c9bb",
                     "data_components": [
                         {
-                            "typeGuid": "de693274-60b1-4973-a474-9bfd21432dd4"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "06adbd64-1b72-400e-a104-511a90d16965"
+                        },
+                        {
+                            "typeGuid": "de693274-60b1-4973-a474-9bfd21432dd4"
                         }
                     ]
                 }
@@ -6047,24 +5179,20 @@
             "instanceGuid": "0193933f-ae97-7cb7-d7d4-57913047277a",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
-                    10.775,
+                    10.7749,
                     30.1914,
                     4.5604
                 ],
                 "rotation": [
                     0,
-                    -2.0192,
+                    -2.0191,
                     0
                 ],
                 "scale": [
-                    1.5701
+                    1.57
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "0193933f-ae97-7cb7-d7d4-57913047277a"
@@ -6094,10 +5222,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "0193933f-bdca-7790-2394-cf6eebd5464e"
                 }
@@ -6120,10 +5244,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939340-301e-769b-9853-20151b029bb1"
@@ -6148,10 +5268,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939340-35ca-7399-a561-4e8a83e94820"
                 }
@@ -6175,10 +5291,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939340-4169-72aa-283e-f22580909686"
                 }
@@ -6192,8 +5304,8 @@
             "instanceGuid": "01939340-52be-7397-8445-a8891b1781ea",
             "de8f8da2-d37f-41da-bc6e-580435fe605f": {
                 "position": [
-                    15.3501,
-                    14.3361,
+                    15.35,
+                    14.336,
                     4.7505
                 ],
                 "scale": [
@@ -6201,10 +5313,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939340-52be-7397-8445-a8891b1781ea"
@@ -6229,10 +5337,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939340-6ef5-7094-6f2a-baa06dfca60e"
                 }
@@ -6255,10 +5359,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939340-7a8a-75b5-3913-54eab52cc3bb"
@@ -6283,10 +5383,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939340-81d6-7d83-5927-6955b236abbd"
                 }
@@ -6309,10 +5405,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939340-8ad2-7e97-d291-d34b45369288"
@@ -6337,10 +5429,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939340-9a93-79bd-602a-72446f7947b9"
                 }
@@ -6363,10 +5451,6 @@
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939340-c74f-76bb-7973-b988062fff58"
@@ -6391,10 +5475,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939341-0310-7f95-a56b-4ea73567de18"
                 }
@@ -6413,19 +5493,15 @@
                     4.5604
                 ],
                 "rotation": [
-                    1.3774,
-                    1.7334,
-                    38.4795
+                    1.3769,
+                    1.7329,
+                    38.479
                 ],
                 "scale": [
                     1.1093
                 ]
             },
             "data_components": [
-                {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
                 {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939341-4241-7ca9-8a04-384e944d068b"
@@ -6468,10 +5544,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939341-9bf1-7082-8064-5aa2640aebf4"
                 }
@@ -6497,10 +5569,6 @@
             },
             "data_components": [
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "Painted Object"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939341-b79f-7fbb-8c0e-8b416e8ae0f8"
                 }
@@ -6519,14 +5587,14 @@
                     7.117
                 ],
                 "rotation": [
-                    -179.9997,
+                    -179.999,
                     0,
-                    179.9997
+                    179.999
                 ],
                 "scale": [
                     1.1796,
-                    1.1793,
-                    0.1793
+                    1.1792,
+                    0.1791
                 ]
             },
             "data_components": [
@@ -6539,12 +5607,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 26"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939333-8da4-7785-bedc-6ed3bed1510d"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 26"
                 }
             ],
             "children": [
@@ -6560,12 +5628,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "01939333-8dc0-7c9d-2f77-0c2337fdb99e"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -6585,12 +5653,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "01939333-8dc0-77a1-4ad1-62472f1496e7"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -6610,7 +5678,7 @@
                 "rotation": [
                     0,
                     89.9999,
-                    -89.9998
+                    -89.9996
                 ],
                 "scale": [
                     1.2264
@@ -6626,12 +5694,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 27"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "01939313-6ddd-7091-28db-94109f309d59"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 27"
                 }
             ],
             "children": [
@@ -6647,12 +5715,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "01939313-6df8-73a8-7332-8a974153bdef"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -6672,12 +5740,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "01939313-6df8-79ad-2da6-82aa7828d514"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -6695,9 +5763,9 @@
                     7.6406
                 ],
                 "rotation": [
-                    -89.9998,
+                    -89.9991,
                     0,
-                    179.9997
+                    179.999
                 ],
                 "scale": [
                     1.1717
@@ -6713,12 +5781,12 @@
                     "gravityScale": 1
                 },
                 {
-                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                    "name": "3D Component 28"
-                },
-                {
                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                     "templateInstanceGuid": "0193932d-9779-7eb0-018e-5423c2af62ef"
+                },
+                {
+                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                    "name": "3D Component 28"
                 }
             ],
             "children": [
@@ -6734,12 +5802,12 @@
                     },
                     "data_components": [
                         {
-                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                            "name": "Mesh Collider"
-                        },
-                        {
                             "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                             "templateInstanceGuid": "0193932d-9779-7389-300c-17f1e6243418"
+                        },
+                        {
+                            "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                            "name": "Mesh Collider"
                         }
                     ],
                     "children": [
@@ -6759,12 +5827,12 @@
                             },
                             "data_components": [
                                 {
-                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
-                                    "name": "Mesh"
-                                },
-                                {
                                     "typeGuid": "1c6d4883-40c7-476d-95ee-90a82135974b",
                                     "templateInstanceGuid": "0193932d-9779-7c8f-dc04-b1553db9f5df"
+                                },
+                                {
+                                    "typeGuid": "fefa51b8-945d-4f88-8859-356c7546efa7",
+                                    "name": "Mesh"
                                 }
                             ]
                         }
@@ -6773,5 +5841,11 @@
             ]
         }
     ],
-    "assetTypeGuid": "807d69a9-56ec-4032-bb92-d081df336672"
+    "assetTypeGuid": "807d69a9-56ec-4032-bb92-d081df336672",
+    "0c3f4f29-0d53-4878-922a-cca7d6af7bb6": {
+        "scene": "51a67dac-3876-4d76-9870-0530e21e2e45"
+    },
+    "de8f8da2-d37f-41da-bc6e-580435fe605f": {
+        "disabled": true
+    }
 }
